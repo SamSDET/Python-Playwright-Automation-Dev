@@ -30,6 +30,7 @@ text= " \n hello world \n "
 print(text.strip())
 print(text.lstrip())
 print(text.rstrip())
+print("updaying one line")
 
 
 
