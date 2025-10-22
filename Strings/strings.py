@@ -24,13 +24,21 @@ print(name.upper(), name)
 print(name.lower(), name) 
 print(name.capitalize())
 print(name.title()) 
-print(name)'''
+print(name)
 
 text= " \n hello world \n "
 print(text.strip())
 print(text.lstrip())
-print(text.rstrip())
-print("updaying one line")
+print(text.rstrip())'''
+
+text= "Python is Fun and Fun is"
+print(text.find("is"))
+print(text.replace("Fun", "Great"))
+print(text)
+text="apples, bananas, cherries"
+print(text.split(", "))
+
+
 
 
 
