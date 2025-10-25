@@ -37,6 +37,9 @@ print(text.replace("Fun", "Great"))
 print(text)
 text="apples, bananas, cherries"
 print(text.split(", "))
+print(",".join(['apples', 'bananas', 'cherries']))
+text="  f "
+print(text.isspace())
 
 
 
