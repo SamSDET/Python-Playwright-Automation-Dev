@@ -1,4 +1,4 @@
-import math
+'''import math
 def square(a):
     return a*a
 q=int(input("Enter a number to find its square : "))
@@ -92,3 +92,29 @@ print(score['John'])
 #print(score[85])
 table_of_5= {i: 5*i for i in range(1,11)}
 print(table_of_5)
+fruits = ['apple', 'banana', 'cherry']
+print(fruits)
+fruits.remove('banana')
+fruits.insert(1, 'orange')
+print(fruits)
+print(fruits.__len__())
+sl = [i+1 for i in range(0,10)]
+print(sl)
+print(sl[0:3])
+print(sl[-3:])
+
+numners = [5,2,9,1,7]
+numners.sort(reverse=True)
+print(numners)
+numners.append(10)
+print(numners)
+numners.remove(2)
+print(numners)
+
+name = ["Alice", "Bob", "Charlie"]
+name.insert(1,"David")
+print(name)'''
+
+ 
+coordinates =(10,20)
+print(coordinates)
